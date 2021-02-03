@@ -71,23 +71,25 @@ body::-webkit-scrollbar {
 
 .main-cards {
   width: 90vw;
-  height: 90vh;
+  height: 60vh;
   display: flex;
-  margin: 0 auto;
+  margin: 15% auto;
+  flex-wrap: wrap;
   justify-content: center;
 
   div {
-    margin: 50px;
+    margin: 0 2%;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 20px;
-    width: 20%;
-    height: 50%;
+    padding: 3%;
+    width: 10vw;
+    height: 45vh;
     box-shadow: 0 8px 6px -6px #ccc;
     display: flex;
-    flex: column wrap;
+    justify-content: center;
+
     span img {
-      margin: 50px auto;
+      margin: 7% auto 20% auto;
       display: block;
       width: 60%;
       height: auto;
