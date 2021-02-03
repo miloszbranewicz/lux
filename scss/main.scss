@@ -4,6 +4,9 @@ html {
   font-family: $font-family;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 .nav {
   padding: 3% 4%;
   display: flex;
@@ -22,7 +25,7 @@ html {
 
 .main-text {
   height: 85vh;
-  width: 80vw;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
